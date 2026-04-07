@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import logo from './assets/logo.png';
 
 
 
@@ -45,7 +46,7 @@ function App() {
     {/* LOGO + NOMBRE */}
     <div className="flex items-center gap-3" >
       <img
-        src="img/Logo simple para Inn.png"
+        src={logo}
         alt="Logo Innovan-Dote"
         className="w-20 h-20 rounded-full p-1 hover:scale-150 transition"
       />
